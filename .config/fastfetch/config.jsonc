@@ -8,7 +8,7 @@
       "2": "#7dcfff"
     },
     "padding": {
-      "top": 0,
+      "top": 2,
       "right": 4
     }
   },
@@ -19,12 +19,20 @@
       "separator": "#565f89"
     },
     "percent": {
-      "type": 9,
+      "type": 2,
       "color": {
         "green": "#7aa2f7",
         "yellow": "#9d7cd8",
         "red": "#bb9af7"
       }
+    },
+    "bar": {
+      "char": {
+        "elapsed": "█",
+        "total": "─"
+      },
+      "width": 16,
+      "border": null
     }
   },
   "modules": [
@@ -90,12 +98,6 @@
       "keyColor": "#8fc0fd"
     },
     {
-      "type": "cpuusage",
-      "key": "  󰾆  Load     ",
-      "keyColor": "#98b8fc",
-      "format": "{avg}"
-    },
-    {
       "type": "gpu",
       "key": "  󰍛  GPU      ",
       "keyColor": "#a0b1fa"
@@ -103,7 +105,8 @@
     {
       "type": "memory",
       "key": "  󰑭  Memory   ",
-      "keyColor": "#a9a9f9"
+      "keyColor": "#a9a9f9",
+      "format": "{percentage-bar} {total}"
     },
     {
       "type": "command",
