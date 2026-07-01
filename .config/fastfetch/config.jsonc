@@ -46,11 +46,6 @@
       "key": "  󰌽  Kernel   ",
       "keyColor": "#7baff9"
     },
-    {
-      "type": "uptime",
-      "key": "  󰅐  Uptime   ",
-      "keyColor": "#7bb5fa"
-    },
     "break",
     {
       "type": "packages",
@@ -66,11 +61,6 @@
       "type": "shell",
       "key": "  󰞷  Shell    ",
       "keyColor": "#7dc9fe"
-    },
-    {
-      "type": "terminal",
-      "key": "  󰆍  Terminal ",
-      "keyColor": "#7dcfff"
     },
     {
       "type": "terminalfont",
